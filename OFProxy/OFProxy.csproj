@@ -4,10 +4,15 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>icons8-login-rounded-64.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="classes\ProxyController - Copy.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icons8-login-rounded-64.ico" />
   </ItemGroup>
 
   <ItemGroup>

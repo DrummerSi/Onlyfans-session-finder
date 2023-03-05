@@ -3,7 +3,7 @@
 
 
 
-**64bit Windows 7+ only**
+**64bit Windows 7+ only. Requires .net 7.0**
 
 
 A simple program that creates a local proxy in order to capture website traffic, specifically from OnlyFans.com

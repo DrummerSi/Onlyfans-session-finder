@@ -102,9 +102,13 @@ namespace OFConsole
         {
             con.Stop();
             Console.WriteLine("");
-            AnsiConsole.MarkupLine("[blue]Program terminated[/]");
+            AnsiConsole.MarkupLine("[blue]Program finihsed. Press ESCAPE to exit[/]");
 
-            Environment.Exit(0);
+            /*do
+            {
+
+            } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
+            Environment.Exit(0);*/
         }
 
 
